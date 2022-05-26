@@ -1,25 +1,19 @@
-# README
+## RoR - Active Job and Sidekiq implementation
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Ruby version: 3.1.0
+- Rails version: 7.0.3
 
-Things you may want to cover:
+## Dependencies
 
-* Ruby version
+- Redis(https://github.com/redis/redis-rb)
 
-* System dependencies
+## Running project
 
-* Configuration
+- redis-server
+- foreman start
 
-* Database creation
 
-* Database initialization
+## Sidekiq credentials
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# report_job
+- user: appplication_user
+- password: r3p0rt
