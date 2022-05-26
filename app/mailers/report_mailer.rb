@@ -5,6 +5,6 @@ class ReportMailer < ApplicationMailer
   def send_created
     @greeting = 'Hi'
 
-    mail to: ENV['DEFAULT_FROM_SENDGRID']
+    mail to: ENV['TARGET_EMAIL_SENDGRID']
   end
 end
