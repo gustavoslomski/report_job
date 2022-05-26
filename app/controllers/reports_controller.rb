@@ -8,6 +8,7 @@ class ReportsController < ApplicationController
 
   def create
     ReportCreateJob.perform_later
+    ReportMailer.send_created.deliver_later
 
     flash[:notice] = 'Estamos processando seu relatório \\o/'
     redirect_to '/reports'
