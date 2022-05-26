@@ -1,0 +1,4 @@
+:queues:
+  - [reports, 2]
+  - [default, 1]
+  - [secondary, 1]
