@@ -15,5 +15,4 @@
 
 ## Sidekiq credentials
 
-- user: appplication_user
-- password: r3p0rt
+- Verify .env file to view sidekiq credentials
