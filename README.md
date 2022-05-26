@@ -5,7 +5,7 @@
 
 ## Dependencies
 
-- Redis(https://github.com/redis/redis-rb)
+- Redis (https://github.com/redis/redis-rb)
 
 ## Running project
 
